@@ -1,0 +1,28 @@
+/* CSS declarations go here */
+li {
+  margin: 0 0 5px;
+}
+
+[name=todoItem] {
+  border: 1px solid #fff;
+  font-family: "Times New Roman";
+  font-size: 100%;
+  padding: 0.15em;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+
+[name=todoItem]:hover,
+[name=todoItem]:focus {
+  border: 1px solid tomato;
+  background-color: #f9f9f9;
+}
+
+.checked{
+    background-color:#f0f0f0;
+    color:#666;
+}
+
+.checked [name=todoItem]{
+    text-decoration: line-through;
+}
