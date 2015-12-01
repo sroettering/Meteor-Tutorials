@@ -18,3 +18,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 iron:router
 accounts-password
+themeteorchef:jquery-validation
+check
+ejson

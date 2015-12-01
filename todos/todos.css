@@ -26,3 +26,7 @@ li {
 .checked [name=todoItem]{
     text-decoration: line-through;
 }
+
+input.error{
+    background-color:rgb(255, 231, 231);
+}
